@@ -1,0 +1,5 @@
+# Django version you're using
+django==3.2
+
+# Required for Python 3.13 to restore distutils
+setuptools
