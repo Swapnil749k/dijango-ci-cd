@@ -2,7 +2,7 @@ FROM python:3.13
 
 WORKDIR /data
 
-RUN pip install django==3.2
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
